@@ -1,0 +1,437 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #e9bb7c;
+        font-family: 'sans-serif';
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    /**************** header ****************/
+    .header {
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        top: 0;
+        left: 0;
+        background-color: #e2d0ba;
+        z-index: 10000;
+        opacity: 0.9;
+    }
+
+    .logo {
+        font-family: Special Elite, monospace;
+        position: absolute;
+        font-size: 24pt;
+        color: white;
+        top: 19px;
+        left: 590px;
+    }
+
+    .start {
+        position: absolute;
+        top: 6px;
+        font-family: Karla, monospace;
+        font-size: 24px;
+        right: 13px;
+        color: white;
+    }
+
+    #line1 {
+        position: absolute;
+        top: 70px;
+        background-color: black;
+        height: 3px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .button {
+        position: absolute;
+        top: 12px;
+        right: 15px;
+        width: 80px;
+        height: 46px;
+        border: 3px solid white;
+        border-radius: 8px;
+        padding: 4px 0px 0px 2px;
+    }
+
+    .button:hover {
+        width: 85px;
+        height: 49px;
+        top: 10px;
+        right: 17px;
+    }
+
+    #freccia {
+        height: 90%;
+        width: 90%;
+    }
+
+    /************** navbar *************/
+    .navbar {
+        position: absolute;
+        top: 70px;
+        left: -20px;
+        width: 100px;
+        height: 800px;
+        background-color: #e9bb7c;
+        z-index: 2;
+    }
+
+    #copertura-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: inherit;
+        z-index: 3;
+    }
+
+
+
+    .navbar:hover {
+        width: 220px;
+    }
+
+    #copertura-menu:hover {
+        opacity: 0;
+    }
+
+    .menu {
+        position: absolute;
+        top: 22px;
+        left: 40px;
+        width: 40px;
+        height: 40px;
+        z-index: 5;
+    }
+
+    .line2 {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 3px;
+        height: 732px;
+        background-color: white;
+        z-index: 1000;
+    }
+
+    #line2P2 {
+        height: 802px
+    }
+
+    #line2P3 {
+        height: 727px
+    }
+
+    .elementi-navbar {
+        font-family: Special Elite, monospace;
+        font-size: 24px;
+        color: black;
+        z-index: 2;
+    }
+
+    .link1 {
+        position: absolute;
+        right: 32px;
+        top: 230px;
+        z-index: 1;
+    }
+
+    .link2 {
+        position: absolute;
+        right: 15px;
+        top: 270px;
+        z-index: 1;
+    }
+
+    .link3 {
+        position: absolute;
+        right: 63px;
+        top: 230px;
+        z-index: 1;
+    }
+
+    .link4 {
+        position: absolute;
+        right: 32px;
+        top: 270px;
+        z-index: 1;
+    }
+
+    .button-link1 {
+        position: absolute;
+        width: 100%;
+        height: 24px;
+        top: 230px;
+    }
+
+    .button-link2 {
+        position: absolute;
+        width: 100%;
+        height: 24px;
+        top: 270px;
+    }
+
+    .button-about {
+        position: absolute;
+        width: 100%;
+        height: 24px;
+        bottom: 250px;
+    }
+
+
+    .line-invisible {
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    /***************** main ******************/
+    .titolo {
+        position: absolute;
+        top: 70px;
+        left: 80px;
+        height: 400px;
+        width: 95%;
+        font-family: Special Elite, monospace;
+        font-size: 80px;
+        color: white;
+    }
+
+    #titoloP2 {
+        height: 110px;
+    }
+
+    #titoloP3 {
+        height: 125px;
+    }
+
+    #testo-titoloP1 {
+        position: absolute;
+        top: 330px;
+        z-index: 10000;
+        margin: 0;
+        left: 173px;
+    }
+
+    #testo-titoloP2 {
+        position: absolute;
+        font-family: Karla, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 100pt;
+        margin: 0;
+        top: -25px;
+        color: black;
+    }
+
+    #testo-titoloP3 {
+        position: absolute;
+        font-family: Cormorant Garamond, serif;
+        font-size: 100pt;
+        margin: 0;
+        top: -12px;
+        left: 5px;
+        color: black;
+    }
+
+    #line3 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 3px;
+        width: 100%;
+        background-color: black;
+    }
+
+    #line3P2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background-color: black;
+    }
+
+    #line3P3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .paragrafo {
+        position: absolute;
+        top: 470px;
+        left: 80px;
+        height: 200px;
+        width: 835px;
+    }
+
+    .testo-paragrafo {
+        margin-left: 6px;
+        margin-top: 2px;
+        font-family: Rubik, sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+    }
+
+    /***
+    #testo-paragrafo3 {
+        font-family: Karla, sans-serif;
+        font-weight: 400;
+    }
+    ***/
+    #paragrafoP2 {
+        position: absolute;
+        top: 505px;
+        left: 85px
+    }
+
+    #paragrafoP3 {
+        position: absolute;
+        top: 429px;
+        left: 85px
+    }
+
+    #sottotitoloP2 {
+        position: absolute;
+        top: 180px;
+        left: 80px;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+    #sottotitoloP3 {
+        position: absolute;
+        top: 205px;
+        left: 80px;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+    #testo-sottotitoloP2 {
+        font-family: Karla, sans-serif;
+        font-weight: 700;
+        font-size: 80pt;
+        top: 10px;
+        left: 10px;
+        line-height: 77pt;
+        color: #e9bb7c;
+        margin: 0;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #testo-sottotitoloP3 {
+        font-family: Cormorant Garamond, serif;
+        font-size: 80pt;
+        font-style: italic;
+        top: 10px;
+        left: 10px;
+        line-height: 77pt;
+        color: #e9bb7c;
+        margin: 0;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .barre {
+        position: absolute;
+        left: 916px;
+        width: 765px;
+        height: 400px;
+    }
+
+    #barreP1 {
+        position: relative;
+        top: -5px;
+    }
+
+    #barreP2 {
+        position: absolute;
+        top: 506px
+    }
+
+    #barrep3 {
+        position: absolute;
+        top: 429px
+    }
+
+    #line4 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 368px;
+        width: 3px;
+        background-color: black;
+    }
+
+    #line4P2 {
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        bottom: -20px;
+        background-color: black;
+    }
+
+    /******************* footer **************/
+    .footer {
+        position: absolute;
+        top: 870px;
+        left: 0px;
+        width: 100%;
+        height: 162px;
+    }
+
+    #footerP2 {
+        top: 872px;
+    }
+
+    #footerP3 {
+        top: 797px;
+    }
+
+    #fonts {
+        position: absolute;
+        font-family: Special Elite, monospace;
+        font-size: 24px;
+        color: white;
+        left: 520px;
+        top: 20px
+    }
+
+    #fontsP1 {
+        position: absolute;
+        font-family: Special Elite, monospace;
+        font-size: 24px;
+        color: white;
+        left: 630px;
+        top: 20px
+    }
+
+    #line5 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        z-index: 10000;
+    }
+
+    #footerP1 {
+        position: absolute;
+        top: 800px;
+    }
